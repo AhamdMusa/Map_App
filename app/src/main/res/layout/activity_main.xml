@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:name="com.google.android.gms.maps.SupportMapFragment">
+    <FrameLayout
+        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/map"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Janata Tawer"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@drawable/location"/>
+
+
+</RelativeLayout>
